@@ -1,0 +1,9 @@
+Learnt about terraform commands:
+
+terraform init: it creates a new working directory, initialize backend, downloads modules. creates a state lock in .terraform folder
+terraform fmt: formats the syntax of the config files
+terraform validate: It's the static command, doesn't do any action just checks the syntax of files
+terraform plan: refresh the state file compares what code have with the real aws/azure infra, shows the actions what will happen
+terraform apply: apply/create/destroy the resources based on the plan and at last updates the state file
+terraform destroy: destroy the resources and updates the state file
+
